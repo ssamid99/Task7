@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/style.min.css"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <span class="header__home">
+        <a href="#head-section" class="header__home__link"
+          >Gourmet au Catering</a
+        >
+      </span>
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">
+            <a href="#about" class="header__nav__list__item__link">About</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#menu" class="header__nav__list__item__link">Menu</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#contact" class="header__nav__list__item__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="head__section" id="head-section">
+      <img
+        src="./images/hamburger.jpg"
+        alt="Hamburger"
+        class="head__section_img"
+      />
+      <span class="head__section__img__span">Le Catering</span>
+    </section>
+    <main class="main">
+      <section class="main__section" id="about">
+        <div class="main__section__img">
+          <img
+            src="./images/t-set1.jpg"
+            alt="Table"
+            class="main__section__img__item"
+          />
+        </div>
+        <div class="main__section__text">
+          <h2 class="main__section__text__h2">About Catering</h2>
+          <br />
+          <h5 class="main__section__text__h5">Tradition since 1889</h5>
+          <p class="main__section__text__paragraph">
+            The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor
+            sit amet, consectetur adipiscing elit consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.We only use
+            <span class="main__section__text__paragraph__span">seasonal</span>
+            ingredients.
+          </p>
+          <p class="main__section__text__paragraph2">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum consectetur adipiscing
+            elit, sed do eiusmod temporincididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
+      <hr />
+      <section class="main__section2" id="menu">
+        <div class="main__section2__text">
+          <h2 class="main__section2__text__h2">Our Menu</h2>
+          <br />
+          <h4 class="main__section2__text__h4">Bread Basket</h4>
+          <p class="main__section2__text__paragraph">
+            Assortment of fresh baked fruit breads and muffins 5.50
+          </p>
+          <br />
+          <h4 class="main__section2__text__h4">
+            Honey Almond Granola with Fruits
+          </h4>
+          <p class="main__section2__text__paragraph">
+            Natural cereal of honey toasted oats, raisins, almonds and dates
+            7.00
+          </p>
+          <br />
+          <h4 class="main__section2__text__h4">Belgian Waffle</h4>
+          <p class="main__section2__text__paragraph">
+            Vanilla flavored batter with malted flour 7.50
+          </p>
+          <br />
+          <h4 class="main__section2__text__h4">Scrambled eggs</h4>
+          <p class="main__section2__text__paragraph">
+            Scrambled eggs, roasted red pepper and garlic, with green onions
+            7.50
+          </p>
+          <br />
+          <h4 class="main__section2__text__h4">Blueberry Pancakes</h4>
+          <p class="main__section2__text__paragraph">
+            With syrup, butter and lots of berries 8.50
+          </p>
+        </div>
+        <div class="main__section2__img">
+          <img
+            src="./images/t-set2.jpg"
+            alt=""
+            class="main__section2__img__item"
+          />
+        </div>
+      </section>
+      <hr />
+      <section class="main__section3" id="contact">
+        <h2 class="main__section3__h2">Contact</h2>
+        <br />
+        <p class="main__section3__paragraph">
+          We offer full-service catering for any event, large or small. We
+          understand your needs and we will cater the food to satisfy the
+          biggerst criteria of them all, both look and taste. Do not hesitate to
+          contact us.
+        </p>
+        <address class="main__section3__address">
+          Catering Service, 42nd Living St, 43043 New York, NY
+        </address>
+        <p class="main__section3__paragraph">
+          You can also contact us by phone 00553123-2323 or email
+          catering@catering.com, or you can send us a message here:
+        </p>
+        <form class="main__section3_form">
+          <label for="name" class="main__section3__form__label">
+            <input
+              class="main__section3__form__label__input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </label>
+          <label for="number" class="main__section3__form__label">
+            <input
+              class="main__section3__form__label__input"
+              type="number"
+              id="number"
+              name="number"
+              placeholder="How many people"
+              required
+            />
+          </label>
+          <label for="dateTime" class="main__section3__form__label">
+            <input
+              class="main__section3__form__label__input"
+              type="datetime-local"
+              id="dateTime"
+              name="dateTime"
+              value="2020-11-16T20:00"
+              required
+            />
+          </label>
+          <label for="text" class="main__section3__form__label">
+            <input
+              class="main__section3__form__label__input"
+              type="text"
+              id="text"
+              name="message"
+              placeholder="Message \ Special requirements"
+              required
+            />
+          </label>
+          <button type="submit" class="main__section3__form__button">
+            SEND MESSAGE
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer class="footer">
+    <span class="footer__span"
+      >Powered by
+      <a
+        href="https://www.w3schools.com/w3css/default.asp"
+        class="footer__span__link"
+        >w3.css</a
+      ></span
+    >
+  </footer>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "webpages",
+  "version": "0.0.1",
+  "description": "this is a FE task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-scss-prod": "node-sass ./assets/scss/main.scss ./assets/css/style.min.css --output-style=compressed",
+    "compile-scss-dev": "node-sass ./assets/scss/main.scss ./assets/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "samid samadzade",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssamid99/task7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssamid99/task7/issues"
+  },
+  "homepage": "https://github.com/ssamid99/task7#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

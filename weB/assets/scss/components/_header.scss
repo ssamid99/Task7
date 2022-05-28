@@ -1,0 +1,45 @@
+@import "../variables";
+@import "../mixins";
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  color: $primary-color;
+  background-color: $secondary-color;
+  @include flexBox(center, space-between);
+
+  &__home {
+    padding: 8px 16px;
+
+    &__link {
+      @include linkStyle;
+      letter-spacing: 4px;
+    }
+  }
+
+  &__nav {
+    &__list {
+      @include flexBox(center, space-between);
+
+      &__item {
+        padding: 8px 16px;
+        list-style-type: none;
+
+        &__link {
+          @include linkStyle;
+          letter-spacing: 4px;
+        }
+      }
+    }
+  }
+}
+.header__nav__list__item:hover {
+  background-color: $hovering;
+}
+
+@include underPhoneScreen {
+  .header__nav {
+    display: none;
+  }
+}
